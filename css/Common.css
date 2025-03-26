@@ -1,0 +1,235 @@
+ul.titler {
+	border: 1px solid #e7e7e7;
+	background-color: #f3f3f3;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+ul.titler li {
+	font-size: 1.0em;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: left;
+}
+.rightli {
+	float: right !important;
+}
+div.inline { 
+	float:left; 
+	border: 1px solid; 
+	border-radius: 5px;
+	/* position:relative; */
+	padding : 1px;
+	background: white;
+}
+/* div.centr {  border: 1px solid;  border-radius: 30%;} */
+.centr {
+	float: left;
+	background-color: whitesmoke;
+}
+.centr div {
+	margin: .5em;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.uplh {
+	background-color: lightblue;
+	margin: 0;
+	padding: 0;
+}
+.uplp {
+	background-color: lightblue;
+	margin: 0;
+	padding: 0;
+}
+.infoh {
+	background-color: whitesmoke;
+	margin: 0;
+	padding: 0;
+}
+.infop {
+	background-color: whitesmoke;
+	margin: 0;
+	padding: 0;
+}
+.arrow_red {
+	color: red;
+	font-weight: bold;
+}
+.uplf {
+	padding: .5em;
+	margin: .5em;
+}
+.blockDiv {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #FFF;
+	width: 0px;
+	height: 0px;
+	z-index: 10;
+	
+}
+#myProgress {
+	width: 100%;
+	background-color: grey;
+}
+#myBar {
+	width: 1%;
+	height: 30px;
+	background-color: green;
+}
+.noM {
+	margin: 0;
+}
+a.a-button:hover {
+	background-color: cornflowerblue;
+	color: whitesmoke;
+	padding: 3px;
+}
+/* .hrLine {
+	border: none;
+	width: 50%;
+   }
+
+a {color: #003B6A;} 
+
+.btnTable
+	{
+		border-bottom: 0px;
+		border-right: 0px;
+		border-left: 0px;
+		border-top: 0px;
+		TEXT-ALIGN: left;
+		font-family: Arial;
+		font-size: 11px;
+	}
+
+.UserHeader1
+	{
+		border-bottom: 0px;
+		border-right: 0px;
+		border-left: 0px;
+		border-top: 0px;
+		TEXT-ALIGN: left;
+		font-family: Arial;
+		font-size: 10px;
+		color: blue
+	}
+
+.UserHeader2
+	{
+		border-bottom: 0px;
+		border-right: 0px;
+		border-left: 0px;
+		border-top: 0px;
+		TEXT-ALIGN: right;
+		font-family: Arial;
+		font-size: 10px;
+		color: blue;
+		vertical-align:top;
+	}
+
+.TextInFeld {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    color: #003B6A;
+    text-decoration: none;
+    background-color: #f1f1f1;
+}
+
+.HiddenInput
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #003B6A;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	border: none;
+	background-color: #f1f1f1;
+}
+
+
+.NameRasdel {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: bold;
+
+    color: #FFFFFF;
+    background-color: #003B6A;
+    cursor: pointer;
+    TEXT-ALIGN: center;
+}
+
+.NameHeader {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: bold;
+
+    color: #FFFFFF;
+    background-color: #003B6A;
+    TEXT-ALIGN: center;
+}
+
+
+td.HeaderActiveCell{
+	behavior: expression(
+	          onmouseover = function() {this.className += ' hover'},
+	          onmouseout = function() {this.className = this.className.replace('hover', '')},
+	          style.behavior = null
+	        );
+	}
+td.HeaderActiveCell.hover
+	{
+	background-color: 00B400;
+	}
+
+td.HeaderActiveCell:hover
+	{
+	background-color: 00B400;
+	}
+
+.TEven {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    color: #003B6A;
+    text-decoration: none;
+    background-color: #f1f1f1;
+}
+.TOdd {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: normal;
+    color: #003B6A;
+    text-decoration: none;
+    background-color: #fafafa;
+}
+
+tr.Todd:hover, tr.TEven:hover
+{
+	background-color: #B4C6D9;
+}
+
+tr.Todd, tr.TEven{
+	behavior: expression(
+	          onmouseover = function() {this.className += ' hover'},
+	          onmouseout = function() {this.className = this.className.replace('hover', '')},
+	          style.behavior = null
+	        );
+	}
+
+tr.HeaderActiveCell.hover
+	{
+	background-color: #B4C6D9;
+	} */
